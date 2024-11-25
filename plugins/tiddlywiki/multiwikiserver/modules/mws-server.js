@@ -282,7 +282,7 @@ function makeTiddlerEtag(options) {
 
 Server.prototype.defaultVariables = {
 	port: "8080",
-	host: "127.0.0.1",
+	host: "0.0.0.0",
 	"required-plugins": "$:/plugins/tiddlywiki/filesystem,$:/plugins/tiddlywiki/tiddlyweb",
 	"root-tiddler": "$:/core/save/all",
 	"root-render-type": "text/plain",
